@@ -1,0 +1,61 @@
+.OuterContainer{
+  
+  border: 2px solid black;
+  border-radius: 15px;
+  width: 30vw;
+  height: auto;
+  justify-self: center;
+  
+  background-color: aliceblue;
+}
+body{
+  background-color: antiquewhite;
+}
+.h1tag{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.input{
+  width: 80%;
+  height: 5vh;
+  margin:0px 10px;
+  border-radius: 10px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+  height:5vh;
+  background-color: greenyellow;
+  border-radius: 10px;
+  border: none;
+  width:3vw;
+  font-family:cursive ;
+}
+.btn:hover{
+  font-weight:bolder;
+}
+h2{
+  font-family:'Courier New', Courier, monospace;
+  margin:20px;
+}
+.data{
+  border:2px solid black;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height:5vh;
+  padding: 5px;
+  width: 90%;
+  margin:20px 15px;
+}
+.delete:hover{
+  font-weight: bolder;
+}
+.delete{
+  position: sticky;
+  left:60%;
+  border-radius: 20px;
+  padding: 5px;
+  font-family:cursive;
+  background-color: blanchedalmond;
+}
